@@ -7,7 +7,7 @@ or task load on multiple network links or servers. In Software Defined Networks
 network is achieved through programming, so difficult network optimization
 problems (such as load balancing) can be easily managed, by using properly designed
 centralized mechanisms.
-  This thesis aims tooptimize the way of sharing data traffic using load balancing
+  This thesis aims to optimize the way of sharing data traffic using load balancing
 techniques, utilizing SDN technology. The background of the thesis includes the
 theoretical study of SDN and the basic methods of load balancing. We present our
 proposal, a load balancing scheme that is based on network traffic and available
