@@ -1,0 +1,28 @@
+package test;
+import java.io.*;
+import java.util.Arrays;
+
+public class TakeResults {
+	
+
+	public static void main(String[] args) {
+
+		        String line;
+		        String[] cmd = {"bash","-c","docker stats --no-stream --format \"{\\\"container\\\": \\\"{{ .Container }}\\\",\\\"name\\\":{{.Name}}\\\", \\\"memory\\\": { \\\"raw\\\": \\\"{{ .MemUsage }}\\\", \\\"percent\\\": \\\"{{ .MemPerc }}\\\"}, \\\"cpu\\\": \\\"{{ .CPUPerc }}\\\"}\""};
+		        System.out.println("Hello, world!\n");
+		        System.out.println(Arrays.toString(cmd));
+		        try {
+		            Process p = Runtime.getRuntime().exec(cmd);
+		            BufferedReader input =
+		                new BufferedReader(new InputStreamReader(p.getInputStream()));
+		            while ((line = input.readLine()) != null) {
+		                System.out.println(line);
+		            }
+		            input.close();
+		        } catch (Exception e) {
+		        }
+		        return ;
+		    }
+		
+		
+	}

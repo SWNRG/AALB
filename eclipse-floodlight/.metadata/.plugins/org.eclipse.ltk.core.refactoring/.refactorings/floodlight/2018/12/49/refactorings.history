@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Monitoring.java&apos; to &apos;test/src/test&apos;&#x0A;- Original project: &apos;floodlight&apos;&#x0A;- Destination element: &apos;test/src/test&apos;&#x0A;- Original element: &apos;net.floodlightcontroller.loadbalancer.Monitoring.java&apos;" description="Copy compilation unit" destination="=test/src&lt;test" element1="/src\/main\/java&lt;net.floodlightcontroller.loadbalancer{Monitoring.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1543757377921" units="1" version="1.0"/>
+</session>

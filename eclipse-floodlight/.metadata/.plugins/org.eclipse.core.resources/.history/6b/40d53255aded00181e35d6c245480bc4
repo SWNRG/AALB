@@ -1,0 +1,20 @@
+package test;
+
+import java.io.IOException;
+
+public class TakeResults {
+	
+
+	public static void main(String[] args) {
+           
+		try {
+			System.out.println(Runtime.getRuntime().exec("/bin/bash -c docker stats --no-stream --format \\\n" + 
+					"    \"{\\\"container\\\":\\\"{{ .Container }}\\\",\\\"memory\\\":{\\\"raw\\\":\\\"{{ .MemUsage }}\\\",\\\"percent\\\":\\\"{{ .MemPerc }}\\\"},\\\"cpu\\\":\\\"{{ .CPUPerc }}\\\"}\""));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+
+}

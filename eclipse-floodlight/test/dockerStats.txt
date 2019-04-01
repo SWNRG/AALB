@@ -1,0 +1,4 @@
+{"container":"3d8a242ba91f","name":"mn.d4","memory":{"raw":"66.73MiB / 512MiB","percent":"13.03%"},"cpu":"23.11%"}
+{"container":"2c3d2071f8b6","name":"mn.d3","memory":{"raw":"66.47MiB / 512MiB","percent":"12.98%"},"cpu":"17.95%"}
+{"container":"9d8c61828ff9","name":"mn.d2","memory":{"raw":"66.59MiB / 512MiB","percent":"13.01%"},"cpu":"18.68%"}
+{"container":"a712cefeb207","name":"mn.d1","memory":{"raw":"68.51MiB / 512MiB","percent":"13.38%"},"cpu":"28.68%"}
